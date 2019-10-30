@@ -25,9 +25,8 @@ hiddenFunctionButton.setOnClickListener(view -> {
 ### カスタマイズ
 
 検知する秒数とタップの回数は変更することができます。
-
-// 3秒以内に5回タップで反応
 ```
+// 3秒以内に5回タップで反応
 hiddenButton.setInterval(3);
 hiddenButton.setMaxCount(5);
 ```
